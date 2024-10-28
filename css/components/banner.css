@@ -1,0 +1,41 @@
+.banner {
+  background-image: url('../../images/banner.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  color: white;
+  text-align: center;
+}
+
+
+.banner h1 {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 50px;
+  color: whitesmoke;
+  text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.9);
+  margin-bottom: 10px;
+  
+}
+
+.banner h2 {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+  opacity: 0.9;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  -webkit-text-stroke: 1px black;
+}
+
+.banner .btn-blue {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.banner .btn-blue:hover {
+  background-color: #0056b3;
+  border-color: #ffffff;
+}
